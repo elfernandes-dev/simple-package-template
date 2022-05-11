@@ -1,27 +1,26 @@
-# package_name
+# ph_generator
 
 Description. 
-The package package_name is used to:
+The package ph_generator is used to:
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ph_generator
 
 ```bash
-pip install package_name
+pip install ph_generator
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from ph_generator import pw_generator
 ```
 
 ## Author
-My_name
+Evandro Fernandes
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

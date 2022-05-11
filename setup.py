@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="pw_generator",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Evandro Fernandes",
+    author_email="elfernandes.dev@gmail.com",
+    description="Gerador de senhas e hashes",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/elfernandes-dev/simple-package-template"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
